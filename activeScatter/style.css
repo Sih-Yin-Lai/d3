@@ -1,0 +1,27 @@
+svg,
+.selected-container {
+    border: 1px solid #ccc;
+}
+
+body {
+    display: flex;
+}
+
+.selected-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.selected-header {
+    background: #f0f0f0;
+    color: #777;
+    padding: 0.5rem 2rem;
+    text-align: right;
+}
+
+.selected-body {
+    overflow: auto;
+    font-size: 0.8em;
+    cursor: default;
+}
